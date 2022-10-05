@@ -1,5 +1,5 @@
 /**
- * Default response structure
+ * Default response structure for webservice
  *
  * @property {boolean} success
  * @property {string} status
