@@ -1,3 +1,3 @@
-export interface IUserWallet{
-  wallet:string
+export interface IUserWallet {
+  wallet: string;
 }

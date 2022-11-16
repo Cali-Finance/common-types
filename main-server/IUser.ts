@@ -1,4 +1,4 @@
-import { Json } from 'sequelize/types/utils';
+import { IUserSettings } from './common/IUserSettings';
 /**
  * Default User structure
  *
@@ -6,7 +6,7 @@ import { Json } from 'sequelize/types/utils';
  * @property {string} wallet
  * @property {string} picture
  * @property {string} name
- * @property {Json} settings
+ * @property {IUserSettings} settings
  * @property {Date} createdAt
  * @property {Date} updatedAt
  */
@@ -15,7 +15,10 @@ export interface IUser {
   wallet?: string;
   picture?: string;
   name?: string;
-  settings?: Json;
+  /**
+   * user settings
+   */
+  settings?: IUserSettings;
   isAdmin?: boolean;
   createdAt?: Date;
   updatedAt?: Date;
