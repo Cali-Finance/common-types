@@ -1,4 +1,4 @@
-import { IUserSettings } from './common/IUserSettings';
+import { IUserSettings } from '../common/IUserSettings';
 /**
  * Default User structure
  *
