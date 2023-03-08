@@ -22,6 +22,7 @@ export interface ISocialMedia {
  */
 export interface ICompany {
   id?: number;
+  isAdmin?: boolean;
   wallet?: string;
   name?: string;
   contactEmail?: string;
@@ -34,4 +35,5 @@ export interface ICompany {
   network?: number;
   type?: string;
   description?: string;
+  funds?: number;
 }
