@@ -20,6 +20,8 @@ export interface IUser {
    */
   settings?: IUserSettings;
   isAdmin?: boolean;
+  amount?: number;
+  coin?: string;
   createdAt?: Date;
   updatedAt?: Date;
 }
