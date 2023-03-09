@@ -36,5 +36,8 @@ export interface ICompany {
   type?: string;
   description?: string;
   totalFundsUsd?: number;
+}
+
+export interface GetUserCompaniesRes extends ICompany {
   revenue?: number;
 }

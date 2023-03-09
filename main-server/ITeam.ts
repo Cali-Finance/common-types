@@ -17,5 +17,4 @@ export interface ITeam {
   teamContractId?: number;
   createdAt?: Date;
   updatedAt?: Date;
-  revenue?: number;
 }

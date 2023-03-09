@@ -20,8 +20,10 @@ export interface IUser {
    */
   settings?: IUserSettings;
   isAdmin?: boolean;
-  amount?: number;
-  coin?: string;
   createdAt?: Date;
   updatedAt?: Date;
+}
+
+export interface GetCompanyUsersRes extends IUser {
+  revenue?: number;
 }
