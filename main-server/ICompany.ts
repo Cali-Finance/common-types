@@ -35,5 +35,10 @@ export interface ICompany {
   network?: number;
   type?: string;
   description?: string;
-  funds?: number;
+  totalFundsUsd?: number;
+}
+
+export interface GetUserCompaniesRes extends ICompany {
+  revenue?: number;
+  asset?: string;
 }
