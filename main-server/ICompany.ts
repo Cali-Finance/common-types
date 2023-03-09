@@ -35,5 +35,6 @@ export interface ICompany {
   network?: number;
   type?: string;
   description?: string;
-  funds?: number;
+  totalFundsUsd?: number;
+  revenue?: number;
 }
