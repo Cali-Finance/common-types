@@ -40,4 +40,5 @@ export interface ICompany {
 
 export interface GetUserCompaniesRes extends ICompany {
   revenue?: number;
+  asset?: string;
 }
