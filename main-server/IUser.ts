@@ -22,6 +22,7 @@ export interface IUser {
   isAdmin?: boolean;
   createdAt?: Date;
   updatedAt?: Date;
+  email?: string
 }
 
 export interface GetCompanyUsersRes extends IUser {
