@@ -29,6 +29,7 @@ export interface ICompany {
   isPublic?: boolean;
   color?: string;
   logo?: string;
+  contract?: string;
   createdAt?: Date;
   updatedAt?: Date;
   socialMedia?: ISocialMedia[];
@@ -36,6 +37,9 @@ export interface ICompany {
   type?: string;
   description?: string;
   totalFundsUsd?: number;
+  checksum?: string;
+  tokenDecimals?: number;
+  token?: string;
 }
 
 export interface GetUserCompaniesRes extends ICompany {
