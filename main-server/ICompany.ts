@@ -26,12 +26,12 @@ export interface ICompany {
   wallet?: string;
   name?: string;
   contactEmail?: string;
-  isPublic?: boolean;
+  isPublic?: number;
   color?: string;
   logo?: string;
   contract?: string;
-  createdAt?: Date;
-  updatedAt?: Date;
+  createdAt?: string;
+  updatedAt?: string;
   socialMedia?: ISocialMedia[];
   network?: number;
   type?: string;
