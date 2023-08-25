@@ -40,6 +40,7 @@ export interface ICompany {
   checksum?: string;
   tokenDecimals?: number;
   token?: string;
+  status: string;
 }
 
 export interface GetUserCompaniesRes extends ICompany {
