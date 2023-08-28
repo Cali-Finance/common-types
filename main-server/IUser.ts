@@ -28,4 +28,5 @@ export interface IUser {
 export interface GetCompanyUsersRes extends IUser {
   revenue?: number;
   asset?: string;
+  status?: number;
 }
